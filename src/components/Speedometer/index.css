@@ -1,0 +1,68 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: roboto;
+}
+.para {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: roboto;
+  margin-top: 10px;
+}
+.des {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: roboto;
+  margin-top: 20px;
+}
+.img {
+  height: 20vh;
+  width: 25vw;
+  margin-top: 10px;
+}
+
+.apply-btn {
+  font-size: 10px;
+  color: white;
+  font-family: roboto;
+  background-color: black;
+  height: 30px;
+  width: 80px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+  margin-left: 12px;
+}
+.accelerate-btn {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: roboto;
+  background-color: #0b69ff;
+  height: 30px;
+  width: 80px;
+  border: 0px;
+  border-radius: 4px;
+  outline: none;
+  padding: 10px;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
